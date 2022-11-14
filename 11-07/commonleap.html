@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>윤년계산하기</title>
+</head>
+
+<body>
+    <script>
+        year = prompt("년도를 입력하세요");
+        y = parseInt(year);
+        if (y % 4 == 0 && y % 100 != 0 || y % 400 == 0)
+            document.write(y + '년도는 윤년(Leap year)입니다.');
+        else
+            document.write(y + '년도는 평년(Common year)입니다.');
+    </script>
+</body>
+
+</html>
