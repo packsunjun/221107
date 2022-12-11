@@ -1,8 +1,12 @@
 # 221107
-><h3>마우스를 올려보세요</h3>
-   <hr>
-   <img src="images/apple.jpg" alt="사과" width="200"
-   onmouseover="this.src='images/banana.jpg'"
-   onmouseout="this.src='images/apple.jpg'">
+## 1.onmouseover 이벤트
+* onmouseout 의 반대 개념
+* 마우스 포인터가 요소 안으로 들어올 때 + 자식 요소 출입시 발생하는 이벤트
+* 요소 영역을 벗어나지 않아도 자식 요소에 들어가거나 나올 때 발생함
+
+## 2.onmouseout 이벤트
+* onmouseover 의 반대 개념
+* 마우스 포인터가 요소 밖으로 나갈 때 + 자식 요소 출입시 발생하는 이벤트
+* 요소 영역을 벗어나지 않아도 자식 요소에 들어가거나 나올 때 발생함
    
 ![image](https://user-images.githubusercontent.com/112832753/206889615-f3e43159-14a2-4c66-9680-892565138ce8.png)
